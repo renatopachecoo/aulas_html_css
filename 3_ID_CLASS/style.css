@@ -1,0 +1,27 @@
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkcyan;
+    font-size: 40px;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 36px;
+}
+
+.verde {
+    color: aquamarine;
+}
+
+.texto_grande {
+    font-size: 60px;
+}
+
+#titulo_h2 {
+    background: black;
+}
+
+#titulo_h2-1 {
+    color: cadetblue;
+}
