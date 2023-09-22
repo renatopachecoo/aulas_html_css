@@ -1,0 +1,19 @@
+.caixa_width {
+    border-width: 2px;
+    border-style: solid;
+    border-color: aqua;
+
+    width: 200px
+}
+
+.imagem_width {
+    width: 500px;
+}
+
+.caixa_height {
+    border: 3px dashed aquamarine;
+
+    height: 20px;
+    width: 250px;
+}
+
