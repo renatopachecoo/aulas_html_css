@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+}
+
+
 div {
     border: 4px dotted blue;
     width: fit-content;
@@ -8,8 +13,37 @@ div {
     padding-bottom: 30px;
     padding-left: 40px; */
     
+    /* shorthand */
+    /* 1 o mesmo valor pra todos os 4 lados  */
      padding: 20px; 
-     padding: 30px 50px;
-    padding: 20px 50px 5px;
-    padding: 30px 50px 70px 90px;
+
+     /* 2 valores primeiro top e bottom / segundo right e left */
+     padding: 30px 50px; 
+
+     /* 3 valores 1 top / 2 right e left / 3 bottom  */
+     padding: 20px 50px 5px;
+
+     /* 4 valores = 1 top / 2 right / 3 bottom / 4 left */
+     padding: 30px 50px 70px 90px;
+
+     /* propriedades extras */
+      padding-inline: 40px; /* padding no horizontal */
+     padding-block: 20px; /* padding no vertical */
+}
+
+h1 {
+    border: 1px solid aqua;
+    margin-bottom: 20px;
+}
+
+.algum {
+    margin-bottom: 100px;
+}
+
+.ultimo {
+    margin-top: 50px;
+}
+
+.outro {
+    margin-inline: auto; 
 }
